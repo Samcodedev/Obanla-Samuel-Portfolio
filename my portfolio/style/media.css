@@ -1,0 +1,341 @@
+@media screen and (max-width: 1000px) {
+    .sub-head-text{
+        margin-left: 50px;
+    }
+    .sub-head-text h1{
+        font-size: 3rem;
+    }
+    .sub-about-nav-button{
+        width: 70%;
+    }
+    .sub-who-i-am-text h1{
+        font-size: 2.5rem;
+    }
+    .comment-3 h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .sub-about-nav-button{
+        width: 80%;
+    }
+    .client-comment{
+        width: 60%;
+    }
+    .client-content{
+        width: 90%;
+    }
+    .price-container{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: fit-content;
+    }
+    .pricing-plan{
+        height: fit-content;
+    }
+    .sub-pricing-plan{
+        height: fit-content;
+    }
+    .price-card{
+        margin-top: 20px;
+    }
+    .pricing-plan{
+        padding-top: 20px;
+    }
+    .sub-head-text h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .head-button{
+        width: 100%;
+    }
+    .sub-work, .sub-prof-work{
+        margin-right: 10px;
+    }
+    .blog-post{
+        flex-direction: column;
+        align-items: center;
+    }
+    .post{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .gal{
+        flex-direction: column;
+    }
+    .layout-group{
+        display: flex;
+    }
+    .service-layout{
+        flex-direction: column;
+    }
+    .gal-child{
+        width: 250px;
+        height: 250px;
+    }
+    .big-gal-child{
+        width: 505px;
+        height: 505px;
+    }
+    .client-img{
+        display: none;
+    }
+    .client-comment{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 760px) {
+    .head-body{
+        flex-direction: column;
+        height: auto;
+    }
+    .head-text{
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+    }
+    .sub-who-i-am-text small, .pricing-text small{
+        text-align: center;
+        display: block;
+    }
+    .head-img{
+        width: 100%;
+    }
+    .sub-head-text h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 4rem;
+    margin-block-end: 10px;
+    color: #fff;
+    }
+    .sub-head-text small{
+        word-spacing: 5px;
+        color: #fff;
+    }
+    .sub-work,.sub-prof-work{
+        margin-right: 10px;
+    }
+    .sub-work, .sub-prof-work{
+        font-size: 12px;
+    }
+    .pricing-plan-text{
+        flex-direction: column;
+    }
+    .pricing-text{
+        width: 100%;
+    }
+    .pricing-text h1{
+        width: 90%;
+        text-align: center;
+        margin-left: 1.5rem;
+    }
+    .who-i-am{
+        flex-direction: column;
+    }
+    .who-i-am-img{
+        width: 100%;
+    }
+    .who-i-am-text, .prof-skill{
+        width: 100%;
+        padding: 20px 20px 20px 0px;
+    }
+    .sub-who-i-am-text{
+        margin-left: 1rem;
+        width: 90%;
+    }
+    .sub-who-i-am-text h1{
+        text-align: center;
+    }
+    .sub-who-i-am-text p{
+        text-align: center;
+    }
+    .work, .prof-work{
+        justify-content: center;
+    }
+    .sub-work p{
+        display: flex;
+        align-items: flex-start;
+    }
+    .work-history{
+        width: 100%;
+    }
+    .sub-work-history{
+        width: 90%;
+    }
+    .meet-us-text{
+        padding-left: 10px;
+    }
+    ul{
+        flex-direction: column;
+    }
+    nav{
+        padding: 15px 10px 15px 0px;
+        justify-content: space-between;
+    }
+    .navi{
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 123, 255);
+        position: absolute;
+        align-items: center;
+        top: 0px;
+        z-index: 3;
+        display: none;
+    }
+    .cancel-burguer{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .cancel-burguer{
+        padding-right: 20px 30px 10px 0;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding-inline-start: 0px;
+    }
+    .navi ul li{
+        height: 50px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .logo{
+        width: 30%;
+    }
+    .hire{
+        width: 100%;
+    }
+    .burguer{
+        display: block;
+    }
+    .sub-follow{
+        flex-direction: column;
+        width: 70%;
+        justify-content: space-between;
+    }
+    .follow-child{
+        margin-bottom: 20px;
+    }
+    .follow-text{
+        width: 100%;
+    }
+    .follow-imgs{
+        width: 100%;
+    }
+    .sub-pup-up{
+        width: 100%;
+        height: auto;
+    }
+    ul a li:hover{
+        border-bottom: 2px solid transparent;
+    }
+}
+@media screen and (max-width: 554px) {
+    .head-body{
+        height: auto;
+    }
+    .head-text{
+        height: auto;
+    }
+    .sub-head-text{
+        margin-left: 20px;
+    }
+    .sub-head-text h1{
+        font-size: 3rem;
+    }
+    .gal-child {
+        width: 180px;
+        height: 180px;
+    }
+    .big-gal-child{
+        width: 365px;
+        height: 365px;
+    }
+    .sub-gal{
+        justify-content: center;
+    }
+    .meet-us-text{
+        width: 70%;
+    }
+    .meet-us-img{
+        width: 30%;
+    }
+    .count-child h1{
+        font-size: 1rem;
+    }
+    .sub-count{
+        width: 90%;
+    }
+    .sub-who-i-am-text h1, .service-text h1, .service-text h1, .latest-project-text h1, .pricing-text h1{
+        font-size: 1.8rem;
+    }
+    .sub-about-nav-button{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .sub-about-nav-button button{
+        width: 200px;
+    }
+    .group-nav-but{
+        margin-bottom: 10px;
+    }
+
+}
+@media screen and (max-width: 429px) {
+    .layout-group{
+        flex-direction: column;
+    }
+    .layout{
+        width: 300px;
+        height: 300px;
+    }
+    .sub-gal{
+        flex-direction: column;
+    }
+    .gal-child{
+        width: 300px;
+        height: 300px;
+    }
+    .big-gal-child{
+        width: 300px;
+        height: 300px;
+    }
+    .sub-meet-us-text button{
+        margin-top: 10px;
+    }
+    .price-card{
+        width: 300px;
+    }
+    .sub-about-nav-button button{
+        max-width: 130px;
+        padding: 8px 20px 8px 20px;
+    }
+    .post{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .button-container button, .button-container button:nth-child(2){
+        display: block;
+        margin: 10px 5px 10px 5px;
+        width: 200px;
+        padding: 10px 0 10px 0;
+    }
+    .button-container{
+        padding: 2px 5px 2px 5px;
+        flex-direction: column;
+    }
+    .button-container button img{
+        width: 15%;
+        height: 100%;
+    }
+    .sub-head-text h1{
+        font-weight: 700;
+    }
+}
